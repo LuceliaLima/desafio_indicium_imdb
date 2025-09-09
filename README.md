@@ -1,9 +1,71 @@
 # desafio_indicium_imdb
 
 
-# Previsão de Nota do IMDB - Análise e Machine Learning
+# 🎬 Previsão de Nota do IMDBg
 
 Este projeto tem como objetivo explorar um dataset de filmes e criar um modelo preditivo para estimar a nota do IMDB a partir de características dos filmes.
+
+---
+
+## 📂 Estrutura do Projeto
+
+IMDB_Prediction/
+│
+├─ data/ # Dataset CSV
+├─ notebooks/ # Notebooks de exploração e modelagem
+├─ scripts/ # Scripts Python executáveis
+├─ requirements.txt # Dependências
+└─ README.md # Este arquivo
+
+
+---
+
+## 🔹 Objetivos do Projeto
+
+- 🎯 **Recomendar filmes** com base na nota e número de votos.  
+- 💰 **Identificar fatores que influenciam o faturamento**.  
+- 📝 **Extrair insights da coluna Overview** e verificar relação com gênero.  
+- 🤖 **Prever a nota do IMDB** usando modelos de regressão.  
+- 📊 **Visualizar resultados** com gráficos e nuvens de palavras.
+
+---
+
+## 🧹 Pré-processamento
+
+- Limpeza de colunas numéricas (`Runtime`, `Gross`, `Released_Year`).  
+- Remoção de stopwords e palavras genéricas de filmes (`movie`, `film`, etc.).  
+- Normalização de numéricas (`StandardScaler`) e codificação de categóricas (`OneHotEncoder`).  
+- Pipeline unificado para pré-processamento + modelo.
+
+---
+
+## 🤖 Modelagem
+
+- Problema tratado como **regressão** (nota contínua).  
+- Modelos utilizados:
+  - `RandomForestRegressor`
+  - `LinearRegression`
+  - `RidgeRegression`
+  - `GradientBoostingRegressor`
+- Métricas de avaliação: **RMSE** e **R²**.  
+
+### Exemplo de treino e previsão
+
+```python
+pipeline.fit(X_train, y_train)
+preds = pipeline.predict(X_test)
+rmse = np.sqrt(mean_squared_error(y_test, preds))
+r2 = r2_score(y_test, preds)
+print(f"RMSE: {rmse:.2f}, R²: {r2:.2f}")
+
+
+Exploração de Dados
+
+Filmes recomendados:
+top_movies = df_imdb.nlargest(5, ['IMDB_Rating','No_of_Votes'])
+print(top_movies[['Series_Title','IMDB_Rating','No_of_Votes']])
+
+
 
 ---
 
