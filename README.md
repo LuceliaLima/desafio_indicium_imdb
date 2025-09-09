@@ -59,11 +59,52 @@ r2 = r2_score(y_test, preds)
 print(f"RMSE: {rmse:.2f}, R²: {r2:.2f}")
 
 
-Exploração de Dados
+📝 Exploração de Dados
 
 Filmes recomendados:
-top_movies = df_imdb.nlargest(5, ['IMDB_Rating','No_of_Votes'])
-print(top_movies[['Series_Title','IMDB_Rating','No_of_Votes']])
+
+- Insights do Overview: palavras mais frequentes, possibilidade de inferir gênero.
+
+- Nuvens de palavras por gênero: visualização clara dos temas principais de cada gênero.
+
+🚀 Previsão de Novos Filmes
+
+shawshank = pd.DataFrame([{
+    'Runtime': 142,
+    'Meta_score': 80,
+    'No_of_Votes': 2343110,
+    'Gross': 28341469,
+    'Certificate': 'A',
+    'Genre': 'Drama',
+    'Director': 'Frank Darabont',
+    'Star1': 'Tim Robbins',
+    'Star2': 'Morgan Freeman',
+    'Star3': 'Bob Gunton',
+    'Star4': 'William Sadler'
+}])
+
+pred_note = pipeline.predict(shawshank)[0]
+print(f"Nota prevista do IMDB: {pred_note:.2f}")
+
+📊 Visualizações
+
+Comparação de R² e RMSE entre modelos.
+
+Nuvens de palavras para cada gênero, destacando temas e enredos.
+
+Gráficos de correlação entre faturamento, votos, metascore e nota do IMDB.
+
+⚙️ Como Rodar o Projeto
+
+Clonar repositório:
+
+git clone <URL_DO_REPOSITORIO>
+cd IMDB_Prediction
+
+
+
+
+
 
 
 
