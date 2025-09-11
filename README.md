@@ -1,4 +1,4 @@
-# desafio_indicium_imdb
+#  Desafio Técnico  LH_CD_Lucelia (Ciência de Dados)
 
 
 # 🎬 Previsão de Nota do IMDBg
