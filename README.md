@@ -55,10 +55,11 @@ Este projeto tem como objetivo explorar um dataset de filmes e criar um modelo p
 ## ⚙️ Como Rodar o Projeto
 
 Clone este repositório:
-
+```
 git clone https://github.com/SEU-USUARIO/desafio_lighthouse_imdb.git
 cd desafio_lighthouse_imdb
 
+```
 
 
 Pré-requisitos
