@@ -56,23 +56,16 @@ Este projeto tem como objetivo explorar um dataset de filmes e criar um modelo p
 
 
 
-Clone este repositório:
-```bash
-git clone https://github.com/SEU-USUARIO/desafio_indicium_imdb.git
-cd desafio_indicium_imdb
 
 
 Pré-requisitos
 Python 3.10 ou superior
 Pip (gerenciador de pacotes do Python)
 
-Passos para Execução
-Clone o Repositório:
-
-git clone https://github.com/brunoaudricc/LH_CD_BRUNOAUDRICDASILVAOLIVEIRA.git
-Instale as Dependências: Execute o comando abaixo para instalar todas as bibliotecas necessárias listadas no arquivo requirements.txt.
+Instale as dependências:
 
 pip install -r requirements.txt
+
 Execute a Análise e a Modelagem: Para visualizar a Análise Exploratória dos Dados e todo o processo de criação do modelo, abra e execute o Jupyter Notebook modelagem.ipynb.
 
 jupyter notebook EDA.ipynb
@@ -88,8 +81,8 @@ python pipeline.py
 
 
 
-1. Clonar o repositório:
+Clone este repositório:
 
-```bash
-git clone <URL_DO_REPOSITORIO>
-cd <NOME_DO_PROJETO>
+git clone https://github.com/SEU-USUARIO/desafio_indicium_imdb.git
+cd desafio_lighthouse_imdb
+
