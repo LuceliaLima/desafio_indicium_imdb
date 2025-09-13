@@ -67,25 +67,32 @@ Python 3.10 ou superior
 
 Instale as dependências:
 
+```
 pip install -r requirements.txt
+```
 
 Execute a Análise e a Modelagem: Para visualizar a Análise Exploratória dos Dados e todo o processo de criação do modelo, abra e execute o Jupyter Notebook modelagem.ipynb.
 
+```
 jupyter notebook EDA.ipynb
+```
+
 Dentro deste notebook, você encontrará a resposta para a previsão da nota do IMDB do filme "The Shawshank Redemption".
 
+```
 jupyter notebook modelagem.ipynb
+```
+
 Dentro deste notebook, você encontrará a resposta para a previsão da nota do IMDB do filme "The Shawshank Redemption".
 
 (Opcional) Execute o Preditor via Script: O arquivo pipeline.py foi configurado para carregar o modelo (pipeline.pkl) e realizar previsões. Para executá-lo, utilize o terminal:
 
+```
 python pipeline.py
+```
 
 
 
 
-Clone este repositório:
 
-git clone https://github.com/SEU-USUARIO/desafio_indicium_imdb.git
-cd desafio_lighthouse_imdb
 
