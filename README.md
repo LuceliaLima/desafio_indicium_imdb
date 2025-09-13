@@ -67,7 +67,7 @@ Instale as dependências:
 pip install -r requirements.txt
 
 Execute a Análise e a Modelagem: Para visualizar a Análise Exploratória dos Dados e todo o processo de criação do modelo, abra e execute o Jupyter Notebook modelagem.ipynb.
-
+```bash
 jupyter notebook EDA.ipynb
 Dentro deste notebook, você encontrará a resposta para a previsão da nota do IMDB do filme "The Shawshank Redemption".
 
