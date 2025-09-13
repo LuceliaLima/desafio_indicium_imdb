@@ -54,6 +54,14 @@ Este projeto tem como objetivo explorar um dataset de filmes e criar um modelo p
 
 ## ⚙️ Como Rodar o Projeto
 
+
+
+Clone este repositório:
+```bash
+git clone https://github.com/SEU-USUARIO/desafio_indicium_imdb.git
+cd desafio_indicium_imdb
+
+
 Pré-requisitos
 Python 3.10 ou superior
 Pip (gerenciador de pacotes do Python)
