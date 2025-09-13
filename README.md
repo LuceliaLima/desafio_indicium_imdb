@@ -1,7 +1,7 @@
 #  Desafio Técnico  LH_CD_Lucelia (Ciência de Dados)
 
 
-# 🎬 Previsão de Nota do IMDBg
+# 🎬 Previsão de Nota do IMDB
 
 Este projeto tem como objetivo explorar um dataset de filmes e criar um modelo preditivo para estimar a nota do IMDB a partir de características dos filmes.
 
