@@ -10,13 +10,13 @@ Este projeto tem como objetivo explorar um dataset de filmes e criar um modelo p
 ## 📂 Estrutura do Projeto
 
 📦 desafio_lighthouse_imdb
-│── data/ # Dados utilizados
-│ └── desafio_indicium_imdb.csv
-│── EDA.ipynb # Análise exploratória de dados
-│── modelagem.ipynb # Construção e avaliação do modelo
-│── pipeline.pkl # Modelo salvo
-│── requirements.txt # Dependências do projeto
-│── README.md # Este arquivo
+- │── data/ # Dados utilizados
+- │ └── desafio_indicium_imdb.csv
+- │── EDA.ipynb # Análise exploratória de dados
+- │── modelagem.ipynb # Construção e avaliação do modelo
+- │── pipeline.pkl # Modelo salvo
+- │── requirements.txt # Dependências do projeto
+- │── README.md # Este arquivo
 
 
 ---
