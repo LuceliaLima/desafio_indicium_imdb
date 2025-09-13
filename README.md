@@ -10,12 +10,12 @@ Este projeto tem como objetivo explorar um dataset de filmes e criar um modelo p
 ## 📂 Estrutura do Projeto
 
 IMDB_Prediction/
-│
-├─ data/ # Dataset CSV
-├─ notebooks/ # Notebooks de exploração e modelagem
-├─ scripts/ # Scripts Python executáveis
-├─ requirements.txt # Dependências
-└─ README.md # Este arquivo
+- │
+- ├─ data/ # Dataset CSV
+- ├─ notebooks/ # Notebooks de exploração e modelagem
+- ├─ scripts/ # Scripts Python executáveis
+- ├─ requirements.txt # Dependências
+- └─ README.md # Este arquivo
 
 
 ---
