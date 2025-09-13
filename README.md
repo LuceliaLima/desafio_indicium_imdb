@@ -13,7 +13,7 @@ Este projeto tem como objetivo explorar um dataset de filmes e criar um modelo p
 
 - │── `📂 data/` → Pasta com datasets
 -   │       └── `desafio_indicium_imdb.csv` → dataset original
--   │       └── `imdb_tratado_*.csv` → versões tratadas, exportadas no EDA
+-   │       └── `imdb_tratado_*.csv` → dataset com versões tratadas, exportadas no EDA
 - │── `EDA.ipynb` → Análise exploratória dos dados (limpeza, gráficos, insights)
 - │── `Modelagem.ipynb` → Preparação dos dados, treino, avaliação e exportação do modelo
 - │── `pipeline.pkl` → pipeline treinado e salvo com o melhor modelo
@@ -24,11 +24,11 @@ Este projeto tem como objetivo explorar um dataset de filmes e criar um modelo p
 
 ## 🔹 Objetivos do Projeto
 
-- 🎯 **Recomendar filmes** com base na nota e número de votos.  
-- 💰 **Identificar fatores que influenciam o faturamento**.  
-- 📝 **Extrair insights da coluna Overview** e verificar relação com gênero.  
-- 🤖 **Prever a nota do IMDB** usando modelos de regressão.  
-- 📊 **Visualizar resultados** com gráficos e nuvens de palavras.
+- **Recomendar filmes** com base na nota e número de votos.  
+- **Identificar fatores que influenciam o faturamento**.  
+- **Extrair insights da coluna Overview** e verificar relação com gênero.  
+- **Prever a nota do IMDB** usando modelos de regressão.  
+- **Visualizar resultados** com gráficos e nuvens de palavras.
 
 ---
 
