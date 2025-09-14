@@ -108,7 +108,7 @@ Abra o arquivo Modelagem.ipynb e execute:
 jupyter notebook modelagem.ipynb
 ```
 
-Dentro deste notebook no modelagem.ipynb, há um exemplo de previsão com The Shawshank Redemption.
+Dentro deste notebook em modelagem.ipynb, há um exemplo de previsão com The Shawshank Redemption.
 
 
 
