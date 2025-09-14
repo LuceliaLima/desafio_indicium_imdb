@@ -85,7 +85,7 @@ Abra o arquivo Modelagem.ipynb e execute:
         - `XGBRegressor`
     - Métricas de avaliação: **RMSE** e **R²**
 - Visualização dos modelos
-- Salvando Melhor Modelos em pipeline.pkl
+- Salvando Melhor Modelo em pipeline.pkl
 
 
 ```
