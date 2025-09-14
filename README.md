@@ -13,7 +13,7 @@ Este projeto tem como objetivo explorar um dataset de filmes e criar um modelo p
 
 - │── `📂 data/` → Pasta com datasets
 -   │       └── `desafio_indicium_imdb.csv` → dataset original
--   │       └── `imdb_tratado_*.csv` → dataset com versões tratadas, exportadas no EDA
+-   │       └── `imdb_tratado.csv` → dataset com versões tratadas, exportadas no EDA
 - │── `EDA.ipynb` → Análise exploratória dos dados (limpeza, gráficos, insights)
 - │── `Modelagem.ipynb` → Preparação dos dados, treino, avaliação e exportação do modelo
 - │── `pipeline.pkl` → pipeline treinado e salvo com o melhor modelo
