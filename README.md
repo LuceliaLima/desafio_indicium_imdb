@@ -40,9 +40,6 @@ pip install -r requirements.txt
 ```
 
 
-
-
-
 ## 🔹 Objetivos do Projeto
 
 - **Recomendar filmes** com base na nota e número de votos.  
@@ -86,12 +83,12 @@ jupyter notebook EDA.ipynb
 
 Abra o arquivo Modelagem.ipynb e execute: 
 
-- Importação do dataset tratado
-- Separação de variáveis numéricas e categóricas
-- Pipelines de pré-processamento (imputação, StandardScaler, OneHotEncoder)
-- Treinamento de diferentes modelos
-- Avaliação com métricas
-- Salvamento do pipeline final em pipeline.pkl
+- Carregando o dados tratados
+- Seleção das variavéis
+- Pré-processamento (imputação, StandardScaler, OneHotEncoder)
+- Definição e Predição do Modelo
+- Visualização dos modelos
+- Salvando Melhor Modelos em pipeline.pkl
 
 - Problema tratado como **regressão**  
 - Modelos utilizados:
