@@ -85,9 +85,7 @@ jupyter notebook EDA.ipynb
 ## 🤖 Modelagem
 
 Abra o arquivo Modelagem.ipynb e execute: 
-```
-jupyter notebook modelagem.ipynb
-```
+
 - Importação do dataset tratado
 - Separação de variáveis numéricas e categóricas
 - Pipelines de pré-processamento (imputação, StandardScaler, OneHotEncoder)
@@ -105,7 +103,11 @@ jupyter notebook modelagem.ipynb
   - `XGBRegressor`
  
 - Métricas de avaliação: **RMSE** e **R²**.
-- 
+
+```
+jupyter notebook modelagem.ipynb
+```
+
 Dentro deste notebook no modelagem.ipynb, há um exemplo de previsão com The Shawshank Redemption.
 
 
