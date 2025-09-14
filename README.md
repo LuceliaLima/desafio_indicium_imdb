@@ -19,40 +19,6 @@ Este projeto tem como objetivo explorar um dataset de filmes e criar um modelo p
 - │── `pipeline.pkl` → pipeline treinado e salvo com o melhor modelo
 - │── `README.md` → documentação do projeto
 
-
----
-
-## 🔹 Objetivos do Projeto
-
-- **Recomendar filmes** com base na nota e número de votos.  
-- **Identificar fatores que influenciam o faturamento**.  
-- **Extrair insights da coluna Overview** e verificar relação com gênero.  
-- **Prever a nota do IMDB** usando modelos de regressão.  
-- **Visualizar resultados** com gráficos e nuvens de palavras.
-
----
-
-## 🧹 Pré-processamento
-
-- Limpeza de colunas numéricas (`Runtime`, `Gross`, `Released_Year`).  
-- Remoção de stopwords e palavras genéricas de filmes (`movie`, `film`, etc.).  
-- Normalização de numéricas (`StandardScaler`) e codificação de categóricas (`OneHotEncoder`).  
-- Pipeline unificado para pré-processamento + modelo.
-
----
-
-## 🤖 Modelagem
-
-- Problema tratado como **regressão** (nota contínua).  
-- Modelos utilizados:
-  - `RandomForestRegressor`
-  - `LinearRegression`
-  - `RidgeRegression`
-  - `GradientBoostingRegressor`
-- Métricas de avaliação: **RMSE** e **R²**.  
-
-
-
 ## ⚙️ Como Rodar o Projeto
 
 Clone este repositório:
@@ -91,6 +57,40 @@ Dentro deste notebook, você encontrará a resposta para a previsão da nota do 
 ```
 python pipeline.py
 ```
+---
+
+## 🔹 Objetivos do Projeto
+
+- **Recomendar filmes** com base na nota e número de votos.  
+- **Identificar fatores que influenciam o faturamento**.  
+- **Extrair insights da coluna Overview** e verificar relação com gênero.  
+- **Prever a nota do IMDB** usando modelos de regressão.  
+- **Visualizar resultados** com gráficos e nuvens de palavras.
+
+---
+
+## 🧹 Pré-processamento
+
+- Limpeza de colunas numéricas (`Runtime`, `Gross`, `Released_Year`).  
+- Remoção de stopwords e palavras genéricas de filmes (`movie`, `film`, etc.).  
+- Normalização de numéricas (`StandardScaler`) e codificação de categóricas (`OneHotEncoder`).  
+- Pipeline unificado para pré-processamento + modelo.
+
+---
+
+## 🤖 Modelagem
+
+- Problema tratado como **regressão** (nota contínua).  
+- Modelos utilizados:
+  - `RandomForestRegressor`
+  - `LinearRegression`
+  - `RidgeRegression`
+  - `GradientBoostingRegressor`
+- Métricas de avaliação: **RMSE** e **R²**.  
+
+
+
+
 
 
 👩‍💻 Autora
