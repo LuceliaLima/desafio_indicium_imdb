@@ -48,7 +48,7 @@ pip install -r requirements.txt
 ```
 
 
-## 🎬 Análise Exploratória (EDA)
+## 📊 Análise Exploratória (EDA)
 
 Abra o arquivo EDA.ipynb no Jupyter Notebook e execute as células.
 
