@@ -39,7 +39,7 @@ git clone https://github.com/LuceliaLima/desafio_lighthouse_imdb.git
 
 
 Pré-requisitos
-Python 3.10 ou superior
+Python 3.13.5  ou superior
 
 2. Instalar dependências:
 
