@@ -87,19 +87,17 @@ Abra o arquivo Modelagem.ipynb e execute:
 - Seleção das variavéis
 - Pré-processamento (imputação, StandardScaler, OneHotEncoder)
 - Definição e Predição do Modelo
+   - Modelos utilizados:
+        - `LinearRegression`
+        - `RidgeRegression`
+        - `LassoRegression`
+        - `RandomForestRegressor`
+        - `GradientBoostingRegressor`
+        - `XGBRegressor`
+    - Métricas de avaliação: **RMSE** e **R²**
 - Visualização dos modelos
 - Salvando Melhor Modelos em pipeline.pkl
 
-- Problema tratado como **regressão**  
-- Modelos utilizados:
-  - `LinearRegression`
-  - `RidgeRegression`
-  - `LassoRegression`
-  - `RandomForestRegressor`
-  - `GradientBoostingRegressor`
-  - `XGBRegressor`
- 
-- Métricas de avaliação: **RMSE** e **R²**.
 
 ```
 jupyter notebook modelagem.ipynb
