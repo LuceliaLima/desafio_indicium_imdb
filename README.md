@@ -15,13 +15,14 @@ Este projeto tem como objetivo explorar um dataset de filmes e criar um modelo p
 -   │       └── `desafio_indicium_imdb.csv` → dataset original
 -   │       └── `imdb_tratado.csv` → dataset com versões tratadas, exportadas no EDA
 - │── `EDA.ipynb` → Análise exploratória dos dados (limpeza, gráficos, insights)
-- │── `Modelagem.ipynb` → Preparação dos dados, treino, avaliação e exportação do modelo
+- │── `modelagem.ipynb` → Preparação dos dados, treino, avaliação e exportação do modelo
 - │── `pipeline.pkl` → pipeline treinado e salvo com o melhor modelo
 - │── `README.md` → documentação do projeto
 
 ## ⚙️ Como Rodar o Projeto
 
-Clone este repositório:
+1. Como clonar o repositório:
+   
 ```
 git clone https://github.com/SEU-USUARIO/desafio_lighthouse_imdb.git
 cd desafio_lighthouse_imdb
@@ -32,32 +33,15 @@ cd desafio_lighthouse_imdb
 Pré-requisitos
 Python 3.10 ou superior
 
-Instale as dependências:
+2. Instalar dependências:
 
 ```
 pip install -r requirements.txt
 ```
 
-Execute a Análise e a Modelagem: Para visualizar a Análise Exploratória dos Dados e todo o processo de criação do modelo, abra e execute o Jupyter Notebook modelagem.ipynb.
 
-```
-jupyter notebook EDA.ipynb
-```
 
-Dentro deste notebook, você encontrará a resposta para a previsão da nota do IMDB do filme "The Shawshank Redemption".
 
-```
-jupyter notebook modelagem.ipynb
-```
-
-Dentro deste notebook, você encontrará a resposta para a previsão da nota do IMDB do filme "The Shawshank Redemption".
-
-(Opcional) Execute o Preditor via Script: O arquivo pipeline.py foi configurado para carregar o modelo (pipeline.pkl) e realizar previsões. Para executá-lo, utilize o terminal:
-
-```
-python pipeline.py
-```
----
 
 ## 🔹 Objetivos do Projeto
 
@@ -78,18 +62,51 @@ python pipeline.py
 
 ---
 
+## 🎬 Análise Exploratória (EDA)
+
+Abra o arquivo EDA.ipynb no Jupyter Notebook e execute as células.
+
+Nessa etapa são realizadas:
+
+- Carregando os dados original
+- Limpeza e pré-processamento inicial
+- Qualidade dos dados
+- Análise univariada
+- Análise bivariada
+- Análise temporal
+- Insights Texto (Overview)
+- Atores, Diretores e Gênero
+- Exportação dos dados tratados
+
+```
+jupyter notebook EDA.ipynb
+```
+
 ## 🤖 Modelagem
 
-- Problema tratado como **regressão** (nota contínua).  
+Abra o arquivo Modelagem.ipynb e execute: 
+```
+jupyter notebook modelagem.ipynb
+```
+- Importação do dataset tratado
+- Separação de variáveis numéricas e categóricas
+- Pipelines de pré-processamento (imputação, StandardScaler, OneHotEncoder)
+- Treinamento de diferentes modelos
+- Avaliação com métricas
+- Salvamento do pipeline final em pipeline.pkl
+
+- Problema tratado como **regressão**  
 - Modelos utilizados:
-  - `RandomForestRegressor`
   - `LinearRegression`
   - `RidgeRegression`
+  - `LassoRegression`
+  - `RandomForestRegressor`
   - `GradientBoostingRegressor`
-- Métricas de avaliação: **RMSE** e **R²**.  
-
-
-
+  - `XGBRegressor`
+ 
+- Métricas de avaliação: **RMSE** e **R²**.
+- 
+Dentro deste notebook no modelagem.ipynb, há um exemplo de previsão com The Shawshank Redemption.
 
 
 
