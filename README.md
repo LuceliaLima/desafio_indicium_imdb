@@ -7,6 +7,15 @@ Este projeto tem como objetivo explorar um dataset de filmes e criar um modelo p
 
 ---
 
+## 🔹 Objetivos do Projeto
+
+- **Recomendar filmes** com base na nota e número de votos.  
+- **Identificar fatores que influenciam o faturamento**.  
+- **Extrair insights da coluna Overview** e verificar relação com gênero.  
+- **Prever a nota do IMDB** usando modelos de regressão.  
+- **Visualizar resultados** com gráficos e nuvens de palavras.
+
+
 ## 📂 Estrutura do Projeto
 
 📦 desafio_lighthouse_imdb
@@ -38,25 +47,6 @@ Python 3.10 ou superior
 pip install -r requirements.txt
 ```
 
-
-## 🔹 Objetivos do Projeto
-
-- **Recomendar filmes** com base na nota e número de votos.  
-- **Identificar fatores que influenciam o faturamento**.  
-- **Extrair insights da coluna Overview** e verificar relação com gênero.  
-- **Prever a nota do IMDB** usando modelos de regressão.  
-- **Visualizar resultados** com gráficos e nuvens de palavras.
-
----
-
-## 🧹 Pré-processamento
-
-- Limpeza de colunas numéricas (`Runtime`, `Gross`, `Released_Year`).  
-- Remoção de stopwords e palavras genéricas de filmes (`movie`, `film`, etc.).  
-- Normalização de numéricas (`StandardScaler`) e codificação de categóricas (`OneHotEncoder`).  
-- Pipeline unificado para pré-processamento + modelo.
-
----
 
 ## 🎬 Análise Exploratória (EDA)
 
